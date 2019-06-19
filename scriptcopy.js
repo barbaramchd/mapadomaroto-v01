@@ -4,9 +4,10 @@
 //function initMap(){
   var map = L.map('map', {
     center: [-23.596846, -46.682813], 
-    zoom: 13,
+    zoom: 10,
+    zoomSnap: 0.5,
     minZoom: 5,
-    zoomDelta: 3,
+    //zoomDelta: 3,
     //attributionControl: true
     });
 
@@ -701,15 +702,20 @@ map.fitBounds(featureGroup.getBounds(), {
     padding: [20,20]
 });
 
-Setting zoom
+//Setting zoom
 setInterval(function(){
   map.setZoom(0);
   setTimeout(function(){
       map.setZoom(1);
   }, 2000);
-}, 4000).addTo(map);
+}, 4000);
 */
-        
+var div = document.getElementById("map");
+map.addEventListener("click", function(){
+  console.log("clicked")
+})
+
+
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
