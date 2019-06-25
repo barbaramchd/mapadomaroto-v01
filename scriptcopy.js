@@ -691,30 +691,43 @@ var overlays ={
 };
 L.control.layers(baseMaps, overlays).addTo(map);  
 
-//Creating clusters
-//var cluster = L.markerClusterGroup();
-//cluster.addLayer(geojson);
-//cluster.addTo(map);
+var rockfella = L.marker([-23.5937489,-46.6848148]);
+var outback = L.marker([-23.5955433,-46.6865461]);
+var rinconcito = L.marker([-23.5967956,-46.6891613]);
 
-/*
-//Fitting markers within map's bounds
-map.fitBounds(featureGroup.getBounds(), {
-    padding: [20,20]
+var vila_olimpia = L.marker([-23.594358,-46.687976]);
+var moema = L.marker([-23.604525,-46.666288]);
+
+var clientes = L.layerGroup([rockfella,outback,rinconcito]);
+var polos = L.layerGroup([vila_olimpia,moema]);
+
+polos.addTo(map);
+
+map.on("zoomend", function (e) {
+    const zoom = map.getZoom();
+    console.log("ZOOM: ", zoom);
+
+    if (zoom > 15) {
+        // SHOW CLIENTS
+        if (!map.hasLayer(clientes)) {
+            map.addLayer(clientes);
+        }
+
+        if (map.hasLayer(polos)) {
+            map.removeLayer(polos);
+        }
+    } else {
+        // SHOW POLOS
+        if (!map.hasLayer(polos)) {
+            map.addLayer(polos);
+        }
+
+        if (map.hasLayer(clientes)) {
+            map.removeLayer(clientes);
+        }
+
+    }
 });
-
-//Setting zoom
-setInterval(function(){
-  map.setZoom(0);
-  setTimeout(function(){
-      map.setZoom(1);
-  }, 2000);
-}, 4000);
-*/
-var div = document.getElementById("map");
-map.addEventListener("click", function(){
-  console.log("clicked")
-})
-
 
 function onMapClick(e) {
     popup
