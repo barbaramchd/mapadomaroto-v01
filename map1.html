@@ -7,27 +7,40 @@
     
     <title>Leaflet Map</title>
 
-    <!-- Stylesheets go here!-->
+    <!-- Leaflet stylesheets go here!-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-    <link rel="stylesheet" href="screen.css"/> <!-- dashboard style-->
+    <link rel="stylesheet" href="screen.css"/> <!-- dash style-->
     <link rel="stylesheet" href="./lib/MarkerCluster.css">
     <link rel="stylesheet" href="./lib/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="./src/L.Control.ZoomDisplay.css">
 
-    <style>
-        #map {position: absolute; top:0; bottom: 0; left: 0; right: 0;}
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <style type="text/css">
     </style>
+
 </head>
 <body>
-    <!-- divs go here-->
-    <div id = "map"></div>
+    <div class="container">
+        <!-- divs go here-->
+        <div class="map" id = "map" style="width: 500px; height: 600px;">
+            <!-- Scripts go here!-->
+            <!--<script src="./lib/leaflet.markercluster.js"></script> -->
+            <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+            <script src="./lib/leaflet.markercluster-src.js"></script> 
+        <!-- <script src="lib/leaflet-providers.js"></script> -->
+            <script src="./src/L.Control.ZoomDisplay.js"></script>
+            <script src="scriptcopy.js"></script> <!-- main coding here-->
+        </div>
 
-    <!-- Scripts go here!-->
-    <!--<script src="./lib/leaflet.markercluster.js"></script> -->
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
-    <script src="./lib/leaflet.markercluster-src.js"></script> 
-    <!-- <script src="lib/leaflet-providers.js"></script> -->
-    <script src="scriptcopy.js"></script> <!-- main coding here-->
+        <!--<div id="geojson">
+            <li><a href="./uploader/data/polosp1.geojson" download="theaters.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Theaters</a></li> -->
 
+        <div class="charts" id="d3charts">
+            <script src="app.js"></script>
+        </div>
+    </div>
 
     
 </body>
