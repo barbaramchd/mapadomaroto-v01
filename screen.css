@@ -1,21 +1,5 @@
-#container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 960px;
-    height: 960px;
-}
+html{
+    background: green;
+    border: 1px solid purple;
 
-.map {
-    width: 600px;
-    height: 650px;
-    padding: 20px;
-    float: left;
-}
-
-.d3charts{
-    width: 600px;
-    height: 650px;
-    padding: 20px;
-    float: rigth;
 }

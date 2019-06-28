@@ -17,29 +17,35 @@
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v4.js"></script>
 
+    <!--Load Boostrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <style type="text/css">
     </style>
 
 </head>
 <body>
     <div class="container">
+        <div class="row">
+            <!--Map-->
+            <div class="col-lg-6 col-md-6 col-sm-6" id='map'>
+                <!-- Scripts go here!-->
+                <!--<script src="./lib/leaflet.markercluster.js"></script> -->
+                <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+                <script src="./lib/leaflet.markercluster-src.js"></script> 
+                <!-- <script src="lib/leaflet-providers.js"></script> -->
+                <script src="./src/L.Control.ZoomDisplay.js"></script>
+                <script src="scriptcopy.js"></script> <!-- main coding here-->
+            </div>
+
+            <!--Charts-->
+            <div class="col-lg-6 col-md-6 col-sm-6" id='charts'><script src="app.js"></script></div>
         <!-- divs go here-->
-        <div class="map" id = "map" style="width: 500px; height: 600px;">
-            <!-- Scripts go here!-->
-            <!--<script src="./lib/leaflet.markercluster.js"></script> -->
-            <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
-            <script src="./lib/leaflet.markercluster-src.js"></script> 
-        <!-- <script src="lib/leaflet-providers.js"></script> -->
-            <script src="./src/L.Control.ZoomDisplay.js"></script>
-            <script src="scriptcopy.js"></script> <!-- main coding here-->
-        </div>
 
         <!--<div id="geojson">
             <li><a href="./uploader/data/polosp1.geojson" download="theaters.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Theaters</a></li> -->
 
-        <div class="charts" id="d3charts">
-            <script src="app.js"></script>
-        </div>
     </div>
 
     
