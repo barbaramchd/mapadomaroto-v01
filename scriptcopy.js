@@ -677,6 +677,61 @@ var fgpolosp1 = L.featureGroup([clusterpolosp1])
     .bindPopup('Hello world!')
     .on('click', function(){ alert ('Clicked on a member of the group'); }).addTo(map);
 
+var geojson3 = L.geoJSON({
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.68865442276001,
+            -23.59136269672867
+          ],
+          [
+            -46.689298152923584,
+            -23.594744913726366
+          ],
+          [
+            -46.68635845184326,
+            -23.595511799638793
+          ],
+          [
+            -46.68266773223877,
+            -23.593643736370364
+          ],
+          [
+            -46.685285568237305,
+            -23.59067444422076
+          ],
+          [
+            -46.68846130371094,
+            -23.59126437516288
+          ]
+        ]
+      }
+    }
+  ]
+},
+{
+  style : function (feature) {
+      return {
+          color: "black",
+          weight: 1
+        };
+      }
+    })
+
+var clusterpolosp2 = L.markerClusterGroup();
+clusterpolosp2.addLayer(geojson3);
+map.addLayer(clusterpolosp2);
+    
+var fgpolosp2 = L.featureGroup([clusterpolosp2])
+  .bindPopup('Hello world!')
+  .on('click', function(){ alert ('Clicked on a member of the group'); }).addTo(map);
+
 //Layer control
 var baseMaps = {
   OSMap: osm,
@@ -685,7 +740,8 @@ var overlays ={
   "Circle": circle,
   "Marker": marker,
   //"GeoJSON": geojson,
-  "FeatureGroup": fgpolosp1 
+  "FeatureGroup": fgpolosp1, 
+  "FeatureGroup2": fgpolosp2
   //'Markers': markers, I cant insert the var markers.. why???
 };
 L.control.layers(baseMaps, overlays).addTo(map);  
@@ -693,9 +749,11 @@ L.control.layers(baseMaps, overlays).addTo(map);
 
 map.on("zoomend", function () {
   if (map.getZoom() <7){
-        map.removeLayer(fgpolosp1);
+        map.removeLayer(fgpolosp1)
+        map.removeLayer(fgpolosp2);
   }else{
-        map.addLayer(fgpolosp1);
+        map.addLayer(fgpolosp1)
+        map.addLayer(fgpolosp2);
   }
 });
 
