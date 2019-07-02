@@ -20,7 +20,13 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.control.scale(metric = "True").addTo(map);
 
 //Por alguma razão, quase todos os pontos dependem desse ponto. Por quê?
-var marker = L.marker([-23.590379, -46.67593]).addTo(map).bindPopup('Hi there!').openPopup();
+function onClick(e){
+  console.log(e.target._latlng);
+  document.getElementById('charts').style.backgroundColor="yellow";
+  }
+
+var marker = L.marker([-23.590379, -46.67593]).addTo(map).on('click', onClick);
+
 
 //Creating the red flower icon
 var redIcon = L.icon({
@@ -745,6 +751,42 @@ var overlays ={
   //'Markers': markers, I cant insert the var markers.. why???
 };
 L.control.layers(baseMaps, overlays).addTo(map);  
+
+/*features = [2, 8]
+//Ploting data, not points
+features[i] = new ol.Feature(new ol.geom.Point(coordinates));
+// 1. set its value
+features[i].value = i;
+
+var sum = 0;
+// 2. get sum of children
+for (var i = 0; i < size; i++) {
+  sum += features[i].value;
+}
+
+var sum = 0;
+// 2. get sum of children
+for (var i = 0; i < size; i++) {
+  sum += features[i].value;
+}
+
+//funcionaaa
+marker.someNumber=5
+
+var marker = new L.MarkerClusterGroup({
+  iconCreateFunction: function(cluster) {
+      var children = cluster.getAllChildMarkers();
+      var sum = 0;
+      for (var i = 0; i < children.length; i++) {
+          sum += children[i].someNumber;
+      }
+      return new L.DivIcon({ html: '<b>' + sum + '</b>' });
+  }
+});
+*/
+
+//Plotar grafico com evento
+let plotcharts = document.querySelector("#charts");
 
 
 map.on("zoomend", function () {

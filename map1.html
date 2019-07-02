@@ -4,12 +4,12 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-    
-    <title>Leaflet Map</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <title>The Marauder's Map</title>
 
     <!-- Leaflet stylesheets go here!-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-    <link rel="stylesheet" href="screen.css"/> <!-- dash style-->
+    <link rel="stylesheet" type="text/css" href="screen.css"/> <!-- dash style-->
     <link rel="stylesheet" href="./lib/MarkerCluster.css">
     <link rel="stylesheet" href="./lib/MarkerCluster.Default.css">
     <link rel="stylesheet" href="./src/L.Control.ZoomDisplay.css">
@@ -19,6 +19,8 @@
 
     <!--Load Boostrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <style type="text/css">
@@ -26,11 +28,48 @@
 
 </head>
 <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand h1 mb-0">STONE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Dashboard
+                        </a>
+                        <div class="dropdown-menu">
+                            <!--<a class="dropdown-item" onclick="showChart();">Nível 01 - Brasil</a>-->
+                            <a class="dropdown-item" href="#">Nível 02 - Regionais</a>
+                            <a class="dropdown-item" href="#">Nível 03 - Distritais</a>
+                            <a class="dropdown-item" href="#">Nível 04 - Polos</a>
+                            <a class="dropdown-item" href="#">Nível 05 - Rotas</a>
+                            <a class="dropdown-item" href="#">Nível 06 - Clientes</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Search">
+                    <button class="btn btn-dark" type="Submit">Search</button>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="navbar.js"></script>
+
+    <!--Main elements-->
     <div class="container">
         <div class="row">
             <!--Map-->
             <div class="col-lg-6 col-md-6 col-sm-6" id='map'>
-                <!-- Scripts go here!-->
                 <!--<script src="./lib/leaflet.markercluster.js"></script> -->
                 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
                 <script src="./lib/leaflet.markercluster-src.js"></script> 
@@ -40,13 +79,16 @@
             </div>
 
             <!--Charts-->
-            <div class="col-lg-6 col-md-6 col-sm-6" id='charts'><script src="app.js"></script></div>
+            <div class="col-lg-6 col-md-6 col-sm-6" id='charts' style="display:_blank;">
+                <script src="app.js"></script>
+            </div>
+            
         <!-- divs go here-->
 
         <!--<div id="geojson">
             <li><a href="./uploader/data/polosp1.geojson" download="theaters.geojson" target="_blank" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-download"></i>&nbsp;&nbsp;Theaters</a></li> -->
-
     </div>
+
 
     
 </body>
