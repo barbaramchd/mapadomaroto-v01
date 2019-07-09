@@ -1,11 +1,12 @@
 
+
 //Creating the map object (the main object of our algorithm)
 //function initMap(){
   var map = L.map('map', {
     center: [-10.18305556, -48.33361111], //Brazil's geography center
     zoom: 4,
     zoomSnap: 0.5,
-    minZoom: 4,
+    //minZoom: 4,
     //zoomDelta: 3,
     //attributionControl: true
     });
@@ -22,7 +23,7 @@ L.control.scale(metric = "True").addTo(map);
 //Por alguma razão, quase todos os pontos dependem desse ponto. Por quê?
 function onClick(e){
   console.log(e.target._latlng);
-  document.getElementById('charts').style.backgroundColor="yellow";
+  document.getElementById('first_chart').style.display="block";
   }
 
 var marker = L.marker([-23.590379, -46.67593]).addTo(map).on('click', onClick);
@@ -688,35 +689,19 @@ var geojson3 = L.geoJSON({
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+         index: 0,
+         Pais: "BRASIL",
+         Regiao: "CONNE",
+         Distrito: "DISTRITO TM",
+         Polo: "POLO IGARAPAVA"
+      },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -46.68865442276001,
-            -23.59136269672867
-          ],
-          [
-            -46.689298152923584,
-            -23.594744913726366
-          ],
-          [
-            -46.68635845184326,
-            -23.595511799638793
-          ],
-          [
-            -46.68266773223877,
-            -23.593643736370364
-          ],
-          [
-            -46.685285568237305,
-            -23.59067444422076
-          ],
-          [
-            -46.68846130371094,
-            -23.59126437516288
+          -48.2515839216,
+          -19.5910918784
           ]
-        ]
       }
     }
   ]
@@ -737,7 +722,156 @@ map.addLayer(clusterpolosp2);
 var fgpolosp2 = L.featureGroup([clusterpolosp2])
   .bindPopup('Hello world!')
   .on('click', function(){ alert ('Clicked on a member of the group'); }).addTo(map);
+  
+/*
+var geojson_arrays = L.geoJSON({
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+         "id": 0,
+         "Pais": "BRASIL",
+         "Regiao": "CONNE",
+         "Distrito": "DISTRITO TM",
+         "Polo": "POLO IGARAPAVA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.5910918784,
+          -48.2515839216
+          ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO VARGINHA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4750236587,
+          -45.3765872084
+          ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO RECIFE - CENTRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2332671087,
+          -35.0267348115
+          ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.9472437485,
+          -51.1344060799
+          ]
+      }
+    }
+  ]
+},
+{
+  style : function (feature) {
+      return {
+          color: "black",
+          weight: 1
+        };
+      }
+    })//.addTo(map);
 
+    //var json = JSON.parse(geojson_arrays)
+    //var oi = geojson_arrays._leaflet_id
+    console.log(geojson_arrays)
+    //console.log(geojson_arrays._layers[oi])
+    console.log(geojson_arrays._layers[134].feature)
+    console.log(geojson_arrays._layers[134].feature.geometry)
+    console.log(geojson_arrays._layers[134].feature.geometry.coordinates)
+    console.log(geojson_arrays._layers[134].feature.properties.id)
+    console.log(geojson_arrays._leaflet_id);
+    console.log(geojson_arrays._layers[137].feature.geometry.coordinates)
+
+
+    
+    //var coisa = geojson_arrays;
+    
+    //console.log(coisa)
+
+
+function setup(){
+  //var plotmarker = geojson_arrays._layers[125].feature.properties.id;
+  //[].forEach.call(plotmarker){
+    //const id = plotmarker.id;
+  var coordinates = geojson_arrays._layers[137].feature.geometry.coordinates;
+  return new L.marker(coordinates[0].lat,coordinates[1].lng).addTo(map)};
+
+onepoint = geojson_arrays._layers[137].feature.geometry.coordinates;
+setup(onepoint);
+*/
+
+var polosSP_arrays = [[-23.7055268434, -46.6984244105], [-23.5462269421, -46.6796297963], [-23.6704282345, -46.7726264745],
+  [-23.4368999301, -46.8110950393], [-23.5553186889, -46.731903387], [-23.7036161903, -46.703979279], 
+  [-23.4849199595, -46.617045501], [-23.5092924213, -46.6341447454], [-23.5426843139, -46.8356477085],
+  [-23.6346991283, -46.7187070317], [-23.9626654309, -46.40309479], [-23.5925717597, -46.6396302104],
+  [-23.4825994667, -46.8850440307], [-23.4110675444, -46.7796093865], [-23.5002534208, -46.41035825],
+  [-23.5257877137, -46.6650292408], [-23.9925393497, -46.4786252837], [-23.4703642896, -46.6020596439],
+  [-23.5147467083, -46.5730338829], [-23.5409440557, -46.9623224487], [-23.6000427034, -46.6843254194],
+  [-23.5271319917, -46.4697613201], [-23.5621723582, -46.4631572252], [-23.5414917273, -46.6643663277],
+  [-23.8489291286, -46.2218240304], [-23.4931848398, -46.5900645247], [-23.5260374714, -46.62159507],
+  [-23.5139596667, -46.6299800667], [-23.4872774879, -46.6410908438], [-23.53261015, -46.8934022361],
+  [-23.5645405903, -46.5970945232], [-23.4803151449, -46.4559735558], [-23.453807606, -46.6591100445],
+  [-23.7768234984, -46.8546797596], [-23.9469792487, -46.3363983828], [-23.8838637652, -46.4251758314],
+  [-23.6539135058, -46.6490689782], [-23.5043524289, -46.6508020048], [-23.5936270617, -46.6087507038],
+  [-23.4495016864, -46.6789577658], [-23.5230121796, -46.7040462556], [-23.4744406483, -46.3475013501],
+  [-23.4764066603, -46.7301561588], [-23.5955209597, -46.7615562328], [-23.5689660538, -46.5394228261],
+  [-23.5674719861, -46.6438644254], [-23.5997085025, -46.9235073073], [-23.5335100483, -46.7917429426],
+  [-23.5893837056, -46.7407864389], [-23.6520897782, -46.8232280452]];
+distritaisSP_array = [[-23.5281437396, -46.6814055846], [ -23.5268766094, -46.6292964458], [-23.554261814, -46.8267442905], [-23.8483938749, -46.4873643277], [-23.5253532863, -46.5047279971], [-23.4763559942, -46.6421831924], [-23.6134146027, -46.6645572981]];
+regionalSP_array= [[-23.5829331157, -46.6344973705]];
+
+for (var i=0; i<polosSP_arrays.length; i++) {
+           
+  var lat = polosSP_arrays[i][0];
+  var lng = polosSP_arrays[i][1];
+  //var popupText = polosSP_arrays[i][2]; NEED TO ADD OR ID
+  
+  var markerLocation = new L.LatLng(lat, lng);
+  var polosSP_markers = new L.Marker(markerLocation)//.addTo(map);
+  //marker.bindPopup(popupText);
+}
+var cluster_polospSP = L.markerClusterGroup();
+cluster_polospSP.addLayer(polosSP_markers);
+map.addLayer(cluster_polospSP);
+    
+var fg_polospSP = L.featureGroup([cluster_polospSP])
+  .bindPopup('Hello world!')
+  .on('click', function(){ alert ('Clicked on a member of the group'); }).addTo(map);
 //Layer control
 var baseMaps = {
   OSMap: osm,
@@ -745,57 +879,21 @@ var baseMaps = {
 var overlays ={
   "Circle": circle,
   "Marker": marker,
-  //"GeoJSON": geojson,
   "FeatureGroup": fgpolosp1, 
-  "FeatureGroup2": fgpolosp2
-  //'Markers': markers, I cant insert the var markers.. why???
+  "FeatureGroup2": fgpolosp2,
+  "Polos SP": fg_polospSP
 };
 L.control.layers(baseMaps, overlays).addTo(map);  
-
-/*features = [2, 8]
-//Ploting data, not points
-features[i] = new ol.Feature(new ol.geom.Point(coordinates));
-// 1. set its value
-features[i].value = i;
-
-var sum = 0;
-// 2. get sum of children
-for (var i = 0; i < size; i++) {
-  sum += features[i].value;
-}
-
-var sum = 0;
-// 2. get sum of children
-for (var i = 0; i < size; i++) {
-  sum += features[i].value;
-}
-
-//funcionaaa
-marker.someNumber=5
-
-var marker = new L.MarkerClusterGroup({
-  iconCreateFunction: function(cluster) {
-      var children = cluster.getAllChildMarkers();
-      var sum = 0;
-      for (var i = 0; i < children.length; i++) {
-          sum += children[i].someNumber;
-      }
-      return new L.DivIcon({ html: '<b>' + sum + '</b>' });
-  }
-});
-*/
-
-//Plotar grafico com evento
-let plotcharts = document.querySelector("#charts");
-
 
 map.on("zoomend", function () {
   if (map.getZoom() <7){
         map.removeLayer(fgpolosp1)
-        map.removeLayer(fgpolosp2);
+        map.removeLayer(fgpolosp2)
+        map.removeLayer(fg_polospSP);
   }else{
         map.addLayer(fgpolosp1)
-        map.addLayer(fgpolosp2);
+        map.addLayer(fgpolosp2)
+        map.addLayer(fg_polospSP);
   }
 });
 

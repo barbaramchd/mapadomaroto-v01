@@ -1,0 +1,3766 @@
+{
+    "schema": {
+      "fields": [
+        {
+          "name": "index",
+          "type": "integer"
+        },
+        {
+          "name": "Pais",
+          "type": "string"
+        },
+        {
+          "name": "Regiao",
+          "type": "string"
+        },
+        {
+          "name": "Distrito",
+          "type": "string"
+        },
+        {
+          "name": "Polo",
+          "type": "string"
+        },
+        {
+          "name": "Lat",
+          "type": "number"
+        },
+        {
+          "name": "Long",
+          "type": "number"
+        }
+      ],
+      "primaryKey": [
+        "index"
+      ],
+      "pandas_version": "0.20.0"
+    },
+    "data": [
+      {
+        "index": 0,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO IGARAPAVA",
+        "Lat": -19.5910918784,
+        "Long": -48.2515839216
+      },
+      {
+        "index": 1,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO VARGINHA",
+        "Lat": -21.4750236587,
+        "Long": -45.3765872084
+      },
+      {
+        "index": 2,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO RECIFE - CENTRO",
+        "Lat": -8.2332671087,
+        "Long": -35.0267348115
+      },
+      {
+        "index": 3,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 5",
+        "Lat": -29.9472437485,
+        "Long": -51.1344060799
+      },
+      {
+        "index": 4,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO SAO JOSE DOS PINHAIS",
+        "Lat": -25.5506604179,
+        "Long": -49.2275122406
+      },
+      {
+        "index": 5,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO ARACRUZ",
+        "Lat": -19.8521970224,
+        "Long": -40.3237096671
+      },
+      {
+        "index": 6,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "POLO NATAL - CENTRO",
+        "Lat": -5.8286091917,
+        "Long": -35.2707125237
+      },
+      {
+        "index": 7,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - OESTE",
+        "Lat": -25.4311436483,
+        "Long": -49.3278128588
+      },
+      {
+        "index": 8,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO BRAGANCA PAULISTA",
+        "Lat": -22.9385592548,
+        "Long": -46.5229248322
+      },
+      {
+        "index": 9,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - HORTO",
+        "Lat": -13.0182679761,
+        "Long": -38.5137479836
+      },
+      {
+        "index": 10,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO GUARAPARI",
+        "Lat": -20.4867281565,
+        "Long": -40.6000575309
+      },
+      {
+        "index": 11,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO ARAGUARI",
+        "Lat": -18.6521119914,
+        "Long": -48.1576478028
+      },
+      {
+        "index": 12,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO SAO JOSE DO RIO PRETO 1",
+        "Lat": -20.8579770878,
+        "Long": -49.3487247889
+      },
+      {
+        "index": 13,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO CAMACARI",
+        "Lat": -12.6228978411,
+        "Long": -38.4303499234
+      },
+      {
+        "index": 14,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO JAU",
+        "Lat": -22.3061626276,
+        "Long": -48.5468639531
+      },
+      {
+        "index": 15,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO OSORIO",
+        "Lat": -29.8817792725,
+        "Long": -50.2923398217
+      },
+      {
+        "index": 16,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO CAMPO MOURAO",
+        "Lat": -24.0095891341,
+        "Long": -52.3592487401
+      },
+      {
+        "index": 17,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO DF - GUARA",
+        "Lat": -15.5897834872,
+        "Long": -48.0827207446
+      },
+      {
+        "index": 18,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO POUSO ALEGRE",
+        "Lat": -22.2160410345,
+        "Long": -45.9439644154
+      },
+      {
+        "index": 19,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO GOIANIA 2",
+        "Lat": -16.7141780696,
+        "Long": -49.2667160412
+      },
+      {
+        "index": 20,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO PRIMAVERA DO LESTE",
+        "Lat": -15.4867433095,
+        "Long": -54.2619736905
+      },
+      {
+        "index": 21,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO RECIFE - OESTE",
+        "Lat": -8.1921816808,
+        "Long": -35.0724363447
+      },
+      {
+        "index": 22,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "POLO JATAI",
+        "Lat": -17.9184739861,
+        "Long": -51.7017966152
+      },
+      {
+        "index": 23,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO OURINHOS",
+        "Lat": -22.9372902717,
+        "Long": -49.7660709867
+      },
+      {
+        "index": 24,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO VIAMAO",
+        "Lat": -30.0387966886,
+        "Long": -51.0287384285
+      },
+      {
+        "index": 25,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - JABAQUARA",
+        "Lat": -23.6439950509,
+        "Long": -46.6495042924
+      },
+      {
+        "index": 26,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO GUAIRA",
+        "Lat": -20.4292921213,
+        "Long": -48.3402946075
+      },
+      {
+        "index": 27,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "POLO ANAPOLIS 2",
+        "Lat": -16.2230708347,
+        "Long": -48.9457601629
+      },
+      {
+        "index": 28,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO NANUQUE",
+        "Lat": -17.8363124,
+        "Long": -40.35500455
+      },
+      {
+        "index": 29,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - LESTE",
+        "Lat": -12.9844103175,
+        "Long": -38.5417021893
+      },
+      {
+        "index": 30,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO MARILIA",
+        "Lat": -22.2017345959,
+        "Long": -49.9104521262
+      },
+      {
+        "index": 31,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO ATIBAIA",
+        "Lat": -23.1168115691,
+        "Long": -46.536935625
+      },
+      {
+        "index": 32,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO DF - CRUZEIRO",
+        "Lat": -15.836309198,
+        "Long": -47.9007381511
+      },
+      {
+        "index": 33,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO SAO JOSE - SUL",
+        "Lat": -27.4719633818,
+        "Long": -48.5485158614
+      },
+      {
+        "index": 34,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO PATOS DE MINAS",
+        "Lat": -18.5874763306,
+        "Long": -46.507136685
+      },
+      {
+        "index": 35,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO RIO BRANCO",
+        "Lat": -10.0177544511,
+        "Long": -67.7289751148
+      },
+      {
+        "index": 36,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO VIDEIRA",
+        "Lat": -27.0063529912,
+        "Long": -51.2352261131
+      },
+      {
+        "index": 37,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO SANTO ANTONIO DE JESUS",
+        "Lat": -12.9554192089,
+        "Long": -39.24071012
+      },
+      {
+        "index": 38,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO ITAJUBA",
+        "Lat": -22.4382649089,
+        "Long": -45.5167514011
+      },
+      {
+        "index": 39,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO SP - GRAJAU",
+        "Lat": -23.7055268434,
+        "Long": -46.6984244105
+      },
+      {
+        "index": 40,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MS",
+        "Polo": "POLO CAMPO GRANDE 2",
+        "Lat": -20.5150089325,
+        "Long": -54.5500200248
+      },
+      {
+        "index": 41,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO ITUMBIARA",
+        "Lat": -18.3138993488,
+        "Long": -49.0356979306
+      },
+      {
+        "index": 42,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO MANAUS - OESTE",
+        "Lat": -3.2271582537,
+        "Long": -59.7616873546
+      },
+      {
+        "index": 43,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO SOROCABA 1",
+        "Lat": -23.4407777808,
+        "Long": -47.481015009
+      },
+      {
+        "index": 44,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO EUNAPOLIS",
+        "Lat": -16.3866988429,
+        "Long": -39.5702195633
+      },
+      {
+        "index": 45,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - PINHEIROS",
+        "Lat": -23.5462269421,
+        "Long": -46.6796297963
+      },
+      {
+        "index": 46,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO SP - CAPAO REDONDO",
+        "Lat": -23.6704282345,
+        "Long": -46.7726264745
+      },
+      {
+        "index": 47,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO CARUARU",
+        "Lat": -8.3503210702,
+        "Long": -36.0344669322
+      },
+      {
+        "index": 48,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO OSASCO - OESTE",
+        "Lat": -23.4368999301,
+        "Long": -46.8110950393
+      },
+      {
+        "index": 49,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - PENHA",
+        "Lat": -22.8083246928,
+        "Long": -43.3003109385
+      },
+      {
+        "index": 50,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "POLO TERESINA - NORTE",
+        "Lat": -5.1554458978,
+        "Long": -42.8067505562
+      },
+      {
+        "index": 51,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO GOIANIA 1",
+        "Lat": -16.6669795718,
+        "Long": -49.3130021655
+      },
+      {
+        "index": 52,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO SP - BUTANTA",
+        "Lat": -23.5553186889,
+        "Long": -46.731903387
+      },
+      {
+        "index": 53,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO UBERLANDIA 1",
+        "Lat": -18.9418441198,
+        "Long": -48.2760272196
+      },
+      {
+        "index": 54,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO INTERIOR ES 4",
+        "Lat": -18.5017232,
+        "Long": -40.8877478
+      },
+      {
+        "index": 55,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO SP - INTERLAGOS",
+        "Lat": -23.7036161903,
+        "Long": -46.703979279
+      },
+      {
+        "index": 56,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO MANAUS - LESTE",
+        "Lat": -3.0706841595,
+        "Long": -59.9649891929
+      },
+      {
+        "index": 57,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO SERRA",
+        "Lat": -20.0295667173,
+        "Long": -40.3447823947
+      },
+      {
+        "index": 58,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - LIBERDADE",
+        "Lat": -23.4849199595,
+        "Long": -46.617045501
+      },
+      {
+        "index": 59,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO BALNEARIO CAMBORIU",
+        "Lat": -26.9920736082,
+        "Long": -48.6231303678
+      },
+      {
+        "index": 60,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - BOM RETIRO",
+        "Lat": -23.5092924213,
+        "Long": -46.6341447454
+      },
+      {
+        "index": 61,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO CARAPICUIBA",
+        "Lat": -23.5426843139,
+        "Long": -46.8356477085
+      },
+      {
+        "index": 62,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO ARARAQUARA",
+        "Lat": -21.7682201118,
+        "Long": -48.1861180978
+      },
+      {
+        "index": 63,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO SANTA MARIA",
+        "Lat": -29.5509806592,
+        "Long": -53.722938603
+      },
+      {
+        "index": 64,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO JOINVILLE - SUL",
+        "Lat": -26.2241597314,
+        "Long": -48.8391772875
+      },
+      {
+        "index": 65,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO FEIRA DE SANTANA 1",
+        "Lat": -12.1881291342,
+        "Long": -38.9522482378
+      },
+      {
+        "index": 66,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - SANTO AMARO",
+        "Lat": -23.6346991283,
+        "Long": -46.7187070317
+      },
+      {
+        "index": 67,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO NOVA IGUACU - NORTE",
+        "Lat": -22.7290895904,
+        "Long": -43.4721737382
+      },
+      {
+        "index": 68,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO INTERIOR ES 1",
+        "Lat": -19.95216371,
+        "Long": -40.93420322
+      },
+      {
+        "index": 69,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO DF - CEILANDIA",
+        "Lat": -15.7512266434,
+        "Long": -48.133169148
+      },
+      {
+        "index": 70,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO SAO VICENTE",
+        "Lat": -23.9626654309,
+        "Long": -46.40309479
+      },
+      {
+        "index": 71,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - VILA MARIANA",
+        "Lat": -23.5925717597,
+        "Long": -46.6396302104
+      },
+      {
+        "index": 72,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PELOTAS",
+        "Lat": -31.6550195383,
+        "Long": -52.2430677088
+      },
+      {
+        "index": 73,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO GOIANIA 5",
+        "Lat": -16.6186189675,
+        "Long": -49.2397351688
+      },
+      {
+        "index": 74,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO RECIFE - SUL",
+        "Lat": -8.3687156531,
+        "Long": -35.1250242467
+      },
+      {
+        "index": 75,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO PATO BRANCO",
+        "Lat": -25.9592147489,
+        "Long": -52.4291280744
+      },
+      {
+        "index": 76,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO ALFENAS",
+        "Lat": -21.4038685214,
+        "Long": -45.8893380395
+      },
+      {
+        "index": 77,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO IMBITUBA",
+        "Lat": -28.0326238358,
+        "Long": -48.6101823337
+      },
+      {
+        "index": 78,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO SAO MATEUS",
+        "Lat": -18.7717523219,
+        "Long": -39.9130884428
+      },
+      {
+        "index": 79,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO CACADOR",
+        "Lat": -26.7349129748,
+        "Long": -50.9185991743
+      },
+      {
+        "index": 80,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO RJ - CAMPO GRANDE",
+        "Lat": -22.7548453072,
+        "Long": -43.4515092613
+      },
+      {
+        "index": 81,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO ITAJAI",
+        "Lat": -26.7732330665,
+        "Long": -48.6242474095
+      },
+      {
+        "index": 82,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO PLANALTINA",
+        "Lat": -15.6345400948,
+        "Long": -47.8845577583
+      },
+      {
+        "index": 83,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO JACAREI",
+        "Lat": -23.3097503,
+        "Long": -45.9785434352
+      },
+      {
+        "index": 84,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO CUIABA 2",
+        "Lat": -15.6584799268,
+        "Long": -56.0337532165
+      },
+      {
+        "index": 85,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO BARBACENA",
+        "Lat": -21.1127988597,
+        "Long": -43.7378238145
+      },
+      {
+        "index": 86,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO BARUERI",
+        "Lat": -23.4825994667,
+        "Long": -46.8850440307
+      },
+      {
+        "index": 87,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO ITAPETININGA",
+        "Lat": -23.5953632762,
+        "Long": -48.04407428
+      },
+      {
+        "index": 88,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO VALPARAISO DE GOIAS 1",
+        "Lat": -15.8859435767,
+        "Long": -48.2300656953
+      },
+      {
+        "index": 89,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO INTERIOR ES 2",
+        "Lat": -21.04261748,
+        "Long": -40.82472406
+      },
+      {
+        "index": 90,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO OLIMPIA",
+        "Lat": -20.7615851406,
+        "Long": -48.8768554447
+      },
+      {
+        "index": 91,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - ANHANGUERA",
+        "Lat": -23.4110675444,
+        "Long": -46.7796093865
+      },
+      {
+        "index": 92,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - BEACH PARK",
+        "Lat": -3.8144569019,
+        "Long": -38.4934965028
+      },
+      {
+        "index": 93,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - ITAIM PAULISTA",
+        "Lat": -23.5002534208,
+        "Long": -46.41035825
+      },
+      {
+        "index": 94,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - BARRA FUNDA",
+        "Lat": -23.5257877137,
+        "Long": -46.6650292408
+      },
+      {
+        "index": 95,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO GOIANIA 4",
+        "Lat": -16.6421190619,
+        "Long": -49.2709242126
+      },
+      {
+        "index": 96,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "POLO NATAL - NORTE",
+        "Lat": -5.991658465,
+        "Long": -35.4090588622
+      },
+      {
+        "index": 97,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO LUCAS DO RIO VERDE",
+        "Lat": -14.5770259143,
+        "Long": -54.5982484429
+      },
+      {
+        "index": 98,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO CACHOEIRO DE ITAPEMIRIM",
+        "Lat": -20.1698758505,
+        "Long": -40.6037835779
+      },
+      {
+        "index": 99,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO RIBEIRAO PRETO 2",
+        "Lat": -21.1875519439,
+        "Long": -47.8171979717
+      },
+      {
+        "index": 100,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO ARACAJU 2",
+        "Lat": -10.8782113501,
+        "Long": -37.1067431169
+      },
+      {
+        "index": 101,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO PRAIA GRANDE",
+        "Lat": -23.9925393497,
+        "Long": -46.4786252837
+      },
+      {
+        "index": 102,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO TORRES",
+        "Lat": -29.2521423018,
+        "Long": -49.7705296209
+      },
+      {
+        "index": 103,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO CACHOEIRINHA",
+        "Lat": -29.9115747579,
+        "Long": -51.0790946443
+      },
+      {
+        "index": 104,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO SINOP",
+        "Lat": -11.8847153575,
+        "Long": -55.5124023202
+      },
+      {
+        "index": 105,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO MANAUS - NORTE",
+        "Lat": -3.0806596828,
+        "Long": -59.9821411344
+      },
+      {
+        "index": 106,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO SAO JOSE DO RIO PRETO 2",
+        "Lat": -20.8144277354,
+        "Long": -49.3863397111
+      },
+      {
+        "index": 107,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO APUCARANA",
+        "Lat": -23.3879127809,
+        "Long": -51.3068824418
+      },
+      {
+        "index": 108,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 4",
+        "Lat": -30.0316282613,
+        "Long": -51.1703704451
+      },
+      {
+        "index": 109,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO NOVO HAMBURGO - LESTE",
+        "Lat": -29.6482033852,
+        "Long": -51.0657274111
+      },
+      {
+        "index": 110,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO SANTA CRUZ DO SUL",
+        "Lat": -29.6626416329,
+        "Long": -52.4419975325
+      },
+      {
+        "index": 111,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - TUCURUVI",
+        "Lat": -23.4703642896,
+        "Long": -46.6020596439
+      },
+      {
+        "index": 112,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO ARAGUAINA",
+        "Lat": -7.1503140408,
+        "Long": -48.2742473003
+      },
+      {
+        "index": 113,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO JALES",
+        "Lat": -20.3014009699,
+        "Long": -50.4693159161
+      },
+      {
+        "index": 114,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - TATUAPE",
+        "Lat": -23.5147467083,
+        "Long": -46.5730338829
+      },
+      {
+        "index": 115,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO ALVORADA",
+        "Lat": -29.9952225664,
+        "Long": -51.0690739157
+      },
+      {
+        "index": 116,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "POLO APARECIDA DE GOIANIA",
+        "Lat": -16.7599419446,
+        "Long": -49.2463131508
+      },
+      {
+        "index": 117,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO VITORIA DA CONQUISTA",
+        "Lat": -14.844477482,
+        "Long": -40.8618561865
+      },
+      {
+        "index": 118,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO RIO DAS OSTRAS",
+        "Lat": -22.5171838242,
+        "Long": -42.0316823278
+      },
+      {
+        "index": 119,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO MEDIANEIRA",
+        "Lat": -25.2704553591,
+        "Long": -54.0107985349
+      },
+      {
+        "index": 120,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO JOAO PESSOA - LITORAL",
+        "Lat": -7.1687917463,
+        "Long": -35.0465458537
+      },
+      {
+        "index": 121,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - EUSEBIO",
+        "Lat": -3.9422887679,
+        "Long": -38.5477720111
+      },
+      {
+        "index": 122,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO DF - AGUAS CLARAS",
+        "Lat": -15.7230313641,
+        "Long": -48.3858772209
+      },
+      {
+        "index": 123,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO ITAPEVI",
+        "Lat": -23.5409440557,
+        "Long": -46.9623224487
+      },
+      {
+        "index": 124,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - BROOKLIN",
+        "Lat": -23.6000427034,
+        "Long": -46.6843254194
+      },
+      {
+        "index": 125,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - ITAQUERA",
+        "Lat": -23.5271319917,
+        "Long": -46.4697613201
+      },
+      {
+        "index": 126,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO JOAO PESSOA - CENTRO",
+        "Lat": -7.1411629571,
+        "Long": -34.9144103302
+      },
+      {
+        "index": 127,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO CIANORTE",
+        "Lat": -23.620776194,
+        "Long": -52.6030475951
+      },
+      {
+        "index": 128,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO ITAPERUNA",
+        "Lat": -21.2738416057,
+        "Long": -41.9402251053
+      },
+      {
+        "index": 129,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "POLO TERESINA - SUL",
+        "Lat": -5.466208858,
+        "Long": -42.9052761338
+      },
+      {
+        "index": 130,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO JARAGUA DO SUL",
+        "Lat": -26.4219211446,
+        "Long": -49.0422473089
+      },
+      {
+        "index": 131,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO CAMPINA GRANDE - NORTE",
+        "Lat": -7.235390897,
+        "Long": -35.9299191023
+      },
+      {
+        "index": 132,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO UBATUBA",
+        "Lat": -23.3739513354,
+        "Long": -45.1884714568
+      },
+      {
+        "index": 133,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO JOINVILLE - NORTE",
+        "Lat": -26.2029828875,
+        "Long": -48.8453254323
+      },
+      {
+        "index": 134,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO GRAVATAI",
+        "Lat": -29.9186915546,
+        "Long": -51.021896563
+      },
+      {
+        "index": 135,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO LINHARES",
+        "Lat": -19.4298460584,
+        "Long": -40.1285484807
+      },
+      {
+        "index": 136,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MS",
+        "Polo": "POLO CAMPO GRANDE 1",
+        "Lat": -20.5007470032,
+        "Long": -54.5587893988
+      },
+      {
+        "index": 137,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO CABO FRIO",
+        "Lat": -22.830862503,
+        "Long": -42.0591186489
+      },
+      {
+        "index": 138,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO TAUBATE",
+        "Lat": -22.9905057685,
+        "Long": -45.5697265967
+      },
+      {
+        "index": 139,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO MANHUACU 1",
+        "Lat": -20.2557954429,
+        "Long": -42.0326344643
+      },
+      {
+        "index": 140,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO CATANDUVA",
+        "Lat": -21.1935874171,
+        "Long": -48.916115157
+      },
+      {
+        "index": 141,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO CHAPECO",
+        "Lat": -27.0103885764,
+        "Long": -52.5185210071
+      },
+      {
+        "index": 142,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - SAO MATEUS",
+        "Lat": -23.5621723582,
+        "Long": -46.4631572252
+      },
+      {
+        "index": 143,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO CATALAO",
+        "Lat": -18.186798024,
+        "Long": -47.9452496826
+      },
+      {
+        "index": 144,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO BELEM 1",
+        "Lat": -1.6173006591,
+        "Long": -48.483393711
+      },
+      {
+        "index": 145,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MS",
+        "Polo": "POLO RONDONOPOLIS",
+        "Lat": -16.4746118086,
+        "Long": -54.6152292344
+      },
+      {
+        "index": 146,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO UBERABA 2",
+        "Lat": -19.7565591142,
+        "Long": -47.936789363
+      },
+      {
+        "index": 147,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO CONCEICAO DA BARRA",
+        "Lat": -18.4351474,
+        "Long": -39.928632
+      },
+      {
+        "index": 148,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO PAULISTA",
+        "Lat": -8.0522164432,
+        "Long": -35.0085353971
+      },
+      {
+        "index": 149,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO PORTO SEGURO",
+        "Lat": -16.5676729085,
+        "Long": -39.2466319173
+      },
+      {
+        "index": 150,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - VILA OLIMPIA",
+        "Lat": -23.5414917273,
+        "Long": -46.6643663277
+      },
+      {
+        "index": 151,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - CENTRO",
+        "Lat": -25.4250499849,
+        "Long": -49.2652130856
+      },
+      {
+        "index": 152,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO RJ - BANGU",
+        "Lat": -22.7181266757,
+        "Long": -43.5322543836
+      },
+      {
+        "index": 153,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO GUARUJA",
+        "Lat": -23.8489291286,
+        "Long": -46.2218240304
+      },
+      {
+        "index": 154,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - MADUREIRA",
+        "Lat": -22.8629106405,
+        "Long": -43.3405491582
+      },
+      {
+        "index": 155,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - VILA MEDEIROS",
+        "Lat": -23.4931848398,
+        "Long": -46.5900645247
+      },
+      {
+        "index": 156,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO VITORIA",
+        "Lat": -20.2567541121,
+        "Long": -40.3375053878
+      },
+      {
+        "index": 157,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO GOIANIA 3",
+        "Lat": -16.6710731954,
+        "Long": -49.3238338823
+      },
+      {
+        "index": 158,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO RECIFE - NORTE",
+        "Lat": -8.1756078778,
+        "Long": -35.0197647896
+      },
+      {
+        "index": 159,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 1",
+        "Lat": -29.9422727348,
+        "Long": -51.1672851277
+      },
+      {
+        "index": 160,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO BLUMENAU 1",
+        "Lat": -26.8100837447,
+        "Long": -49.0314673085
+      },
+      {
+        "index": 161,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO MARINGA 2",
+        "Lat": -23.4073521811,
+        "Long": -51.9336702018
+      },
+      {
+        "index": 162,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO PATROCINIO",
+        "Lat": -18.9429005281,
+        "Long": -46.9868999822
+      },
+      {
+        "index": 163,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "POLO MOSSORO",
+        "Lat": -5.1960314926,
+        "Long": -37.3462799776
+      },
+      {
+        "index": 164,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - BRAS",
+        "Lat": -23.5260374714,
+        "Long": -46.62159507
+      },
+      {
+        "index": 165,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO ITABUNA",
+        "Lat": -14.9874751185,
+        "Long": -39.4643671098
+      },
+      {
+        "index": 166,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO BARRA MANSA",
+        "Lat": -22.5554723169,
+        "Long": -44.1920089469
+      },
+      {
+        "index": 167,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO MACEIO 1",
+        "Lat": -9.6457965941,
+        "Long": -35.8341534707
+      },
+      {
+        "index": 168,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO PONTA GROSSA",
+        "Lat": -25.0829909123,
+        "Long": -50.1332431543
+      },
+      {
+        "index": 169,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO CANOAS",
+        "Lat": -29.8867949414,
+        "Long": -51.1725033702
+      },
+      {
+        "index": 170,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO MANAUS - CENTRO",
+        "Lat": -3.2463702769,
+        "Long": -59.8402570082
+      },
+      {
+        "index": 171,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO SAO JOSE - NORTE",
+        "Lat": -27.4986862793,
+        "Long": -48.6101294753
+      },
+      {
+        "index": 172,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO DF - ASA SUL",
+        "Lat": -15.7777143336,
+        "Long": -48.0123738776
+      },
+      {
+        "index": 173,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO ASSIS",
+        "Lat": -22.6066874217,
+        "Long": -50.4179759233
+      },
+      {
+        "index": 174,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - TIETE",
+        "Lat": -23.5139596667,
+        "Long": -46.6299800667
+      },
+      {
+        "index": 175,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO PATOS",
+        "Lat": -7.0325032382,
+        "Long": -37.28331154
+      },
+      {
+        "index": 176,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO COLATINA",
+        "Lat": -19.5623551595,
+        "Long": -40.6684564318
+      },
+      {
+        "index": 177,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO PALHOCA",
+        "Lat": -27.6191194281,
+        "Long": -48.679086463
+      },
+      {
+        "index": 178,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - SUDOESTE",
+        "Lat": -25.4486844128,
+        "Long": -49.2692711626
+      },
+      {
+        "index": 179,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO RJ - SANTA CRUZ",
+        "Lat": -22.7634554297,
+        "Long": -43.7495080845
+      },
+      {
+        "index": 180,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO COLOMBO",
+        "Lat": -25.3170517592,
+        "Long": -49.2146995572
+      },
+      {
+        "index": 181,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO ITUIUTABA",
+        "Lat": -19.0132896768,
+        "Long": -49.4559380237
+      },
+      {
+        "index": 182,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO TATUI",
+        "Lat": -23.2926398883,
+        "Long": -47.79147094
+      },
+      {
+        "index": 183,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO BARRA DO PIRAI",
+        "Lat": -22.4520704643,
+        "Long": -43.8254585438
+      },
+      {
+        "index": 184,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "POLO RIO VERDE",
+        "Lat": -17.8026091027,
+        "Long": -50.9000008967
+      },
+      {
+        "index": 185,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO SORRISO",
+        "Lat": -12.54398852,
+        "Long": -55.72488358
+      },
+      {
+        "index": 186,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO GRAVATA",
+        "Lat": -8.2382104103,
+        "Long": -35.5466737767
+      },
+      {
+        "index": 187,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO BENTO GONCALVES",
+        "Lat": -29.1727362298,
+        "Long": -51.4381606445
+      },
+      {
+        "index": 188,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "POLO NATAL - SUL",
+        "Lat": -5.9628744316,
+        "Long": -35.3091950823
+      },
+      {
+        "index": 189,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - SANTANA",
+        "Lat": -23.4872774879,
+        "Long": -46.6410908438
+      },
+      {
+        "index": 190,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO VARZEA GRANDE",
+        "Lat": -15.570980505,
+        "Long": -55.8821340758
+      },
+      {
+        "index": 191,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO SAO JOAO DEL REI",
+        "Lat": -21.1166427341,
+        "Long": -44.244896991
+      },
+      {
+        "index": 192,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO BOTUCATU",
+        "Lat": -22.8459234581,
+        "Long": -48.3926511631
+      },
+      {
+        "index": 193,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MS",
+        "Polo": "POLO DOURADOS",
+        "Lat": -22.2219651534,
+        "Long": -54.8041984673
+      },
+      {
+        "index": 194,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO ALAGOINHAS",
+        "Lat": -12.2055675659,
+        "Long": -38.4166487512
+      },
+      {
+        "index": 195,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - TIJUCA",
+        "Lat": -22.9055667452,
+        "Long": -43.2603461705
+      },
+      {
+        "index": 196,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO ANANINDEUA",
+        "Lat": -1.563321009,
+        "Long": -48.3829192649
+      },
+      {
+        "index": 197,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 2",
+        "Lat": -29.9697450857,
+        "Long": -51.1384138094
+      },
+      {
+        "index": 198,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "POLO JUAZEIRO DO NORTE",
+        "Lat": -7.2703978286,
+        "Long": -39.338248807
+      },
+      {
+        "index": 199,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO FEIRA DE SANTANA 2",
+        "Lat": -12.3247478805,
+        "Long": -39.0172243427
+      },
+      {
+        "index": 200,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO POA",
+        "Lat": -23.5149969207,
+        "Long": -46.3368739817
+      },
+      {
+        "index": 201,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO PINHAIS",
+        "Lat": -25.4132801571,
+        "Long": -49.1418374287
+      },
+      {
+        "index": 202,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO ILHEUS",
+        "Lat": -14.814765509,
+        "Long": -39.0438734782
+      },
+      {
+        "index": 203,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO CATAGUASES",
+        "Lat": -21.4951159981,
+        "Long": -42.7579225226
+      },
+      {
+        "index": 204,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO BATATAIS",
+        "Lat": -20.9204070294,
+        "Long": -47.5972239617
+      },
+      {
+        "index": 205,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - BAIRRO DE FATIMA",
+        "Lat": -3.8406316217,
+        "Long": -38.5706540267
+      },
+      {
+        "index": 206,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO TUBARAO",
+        "Lat": -28.3515856095,
+        "Long": -49.0334799722
+      },
+      {
+        "index": 207,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO BIRIGUI",
+        "Lat": -21.3567683403,
+        "Long": -50.1976729626
+      },
+      {
+        "index": 208,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - NORDESTE",
+        "Lat": -25.3976341857,
+        "Long": -49.2420049246
+      },
+      {
+        "index": 209,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "POLO ANAPOLIS 1",
+        "Lat": -16.3406550477,
+        "Long": -48.9524374803
+      },
+      {
+        "index": 210,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO SOROCABA 2",
+        "Lat": -23.4478356471,
+        "Long": -47.5560937437
+      },
+      {
+        "index": 211,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO ERECHIM",
+        "Lat": -27.6417853836,
+        "Long": -52.2456313577
+      },
+      {
+        "index": 212,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO JANDIRA",
+        "Lat": -23.53261015,
+        "Long": -46.8934022361
+      },
+      {
+        "index": 213,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO CARIACICA",
+        "Lat": -20.3455956359,
+        "Long": -40.4687638634
+      },
+      {
+        "index": 214,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO RIO GRANDE",
+        "Lat": -31.8697522487,
+        "Long": -52.1058702884
+      },
+      {
+        "index": 215,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO CAMPOS DOS GOYTACAZES 2",
+        "Lat": -21.7333501361,
+        "Long": -41.3504507549
+      },
+      {
+        "index": 216,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO TRAMANDAI",
+        "Lat": -29.8404874509,
+        "Long": -50.1459060897
+      },
+      {
+        "index": 217,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO VILA VELHA",
+        "Lat": -20.3358412208,
+        "Long": -40.3490646811
+      },
+      {
+        "index": 218,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO UBERABA 1",
+        "Lat": -19.7229198441,
+        "Long": -47.8958706571
+      },
+      {
+        "index": 219,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO MOGI DAS CRUZES",
+        "Lat": -23.5170384886,
+        "Long": -46.1792032523
+      },
+      {
+        "index": 220,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO IMPERATRIZ",
+        "Lat": -5.6102333332,
+        "Long": -47.4807274837
+      },
+      {
+        "index": 221,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - MEIRELES",
+        "Lat": -3.8286759218,
+        "Long": -38.5564566433
+      },
+      {
+        "index": 222,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - MOOCA",
+        "Lat": -23.5645405903,
+        "Long": -46.5970945232
+      },
+      {
+        "index": 223,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - BARRA DA TIJUCA",
+        "Lat": -22.9999153867,
+        "Long": -43.4197716543
+      },
+      {
+        "index": 224,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO SANTO ANGELO",
+        "Lat": -28.3084662269,
+        "Long": -54.2799923817
+      },
+      {
+        "index": 225,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - BONFIM",
+        "Lat": -12.9509208035,
+        "Long": -38.4407128262
+      },
+      {
+        "index": 226,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - LESTE",
+        "Lat": -25.3905174119,
+        "Long": -49.2092455529
+      },
+      {
+        "index": 227,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "POLO CASCAVEL CEARENSE",
+        "Lat": -4.3075571184,
+        "Long": -38.6616943105
+      },
+      {
+        "index": 228,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO CAMPINA GRANDE - SUL",
+        "Lat": -7.3445452865,
+        "Long": -36.0028871837
+      },
+      {
+        "index": 229,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - SAO MIGUEL",
+        "Lat": -23.4803151449,
+        "Long": -46.4559735558
+      },
+      {
+        "index": 230,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - NORTE",
+        "Lat": -3.8775898696,
+        "Long": -38.6193391541
+      },
+      {
+        "index": 231,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - JARDINS",
+        "Lat": -23.453807606,
+        "Long": -46.6591100445
+      },
+      {
+        "index": 232,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO BLUMENAU 2",
+        "Lat": -26.7405696914,
+        "Long": -49.2226786438
+      },
+      {
+        "index": 233,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - NORTE",
+        "Lat": -25.3967193049,
+        "Long": -49.3025387061
+      },
+      {
+        "index": 234,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO SAO JOSE DOS CAMPOS",
+        "Lat": -23.1694975095,
+        "Long": -45.9369557947
+      },
+      {
+        "index": 235,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO DF - LAGO PARANOA",
+        "Lat": -15.6350995115,
+        "Long": -48.175410969
+      },
+      {
+        "index": 236,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO BELEM 2",
+        "Lat": -1.497200826,
+        "Long": -48.4632178434
+      },
+      {
+        "index": 237,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO ITAPECERICA DA SERRA",
+        "Lat": -23.7768234984,
+        "Long": -46.8546797596
+      },
+      {
+        "index": 238,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO CARAZINHO",
+        "Lat": -28.245260822,
+        "Long": -52.7360061356
+      },
+      {
+        "index": 239,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO ARACATUBA",
+        "Lat": -21.1623901853,
+        "Long": -50.4768079562
+      },
+      {
+        "index": 240,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CB - SUL",
+        "Lat": -25.4905019288,
+        "Long": -49.283323491
+      },
+      {
+        "index": 241,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO CAMPOS DOS GOYTACAZES 1",
+        "Lat": -21.7612653359,
+        "Long": -41.4071437691
+      },
+      {
+        "index": 242,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO SERTAOZINHO",
+        "Lat": -21.1422265147,
+        "Long": -47.9705259836
+      },
+      {
+        "index": 243,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO VOLTA REDONDA",
+        "Lat": -22.516066027,
+        "Long": -44.1109016713
+      },
+      {
+        "index": 244,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO PARANAVAI",
+        "Lat": -22.9865752984,
+        "Long": -52.3558136699
+      },
+      {
+        "index": 245,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO GUARATINGUETA",
+        "Lat": -22.7975497208,
+        "Long": -45.1919249963
+      },
+      {
+        "index": 246,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO FRANCO DA ROCHA",
+        "Lat": -23.3187672147,
+        "Long": -46.6549105427
+      },
+      {
+        "index": 247,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "POLO PARNAMIRIM",
+        "Lat": -6.0386470421,
+        "Long": -35.3423065563
+      },
+      {
+        "index": 248,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO DUQUE DE CAXIAS - NORTE",
+        "Lat": -22.5937075048,
+        "Long": -43.1753305892
+      },
+      {
+        "index": 249,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO ITU",
+        "Lat": -23.2449074625,
+        "Long": -47.2950160583
+      },
+      {
+        "index": 250,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO CRUZ ALTA",
+        "Lat": -28.34608333,
+        "Long": -51.2308260514
+      },
+      {
+        "index": 251,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO TAQUARA",
+        "Lat": -29.6284173046,
+        "Long": -50.8019608398
+      },
+      {
+        "index": 252,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO ICARAI",
+        "Lat": -22.8900260387,
+        "Long": -43.1641015939
+      },
+      {
+        "index": 253,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO JABOATAO DOS GUARARAPES",
+        "Lat": -8.3286903952,
+        "Long": -35.1102838711
+      },
+      {
+        "index": 254,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO CUIABA 1",
+        "Lat": -15.5061551786,
+        "Long": -55.905639986
+      },
+      {
+        "index": 255,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - JACAREPAGUA",
+        "Lat": -22.9190516079,
+        "Long": -43.3874005682
+      },
+      {
+        "index": 256,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO VOTUPORANGA",
+        "Lat": -20.350769541,
+        "Long": -50.038655267
+      },
+      {
+        "index": 257,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO ARAPIRACA",
+        "Lat": -9.7308565332,
+        "Long": -36.7856999726
+      },
+      {
+        "index": 258,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO LONDRINA 1",
+        "Lat": -23.2980401111,
+        "Long": -51.1593924126
+      },
+      {
+        "index": 259,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO SAO LUIS 2",
+        "Lat": -2.5330576925,
+        "Long": -44.3715611146
+      },
+      {
+        "index": 260,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO CASCAVEL",
+        "Lat": -24.9185421378,
+        "Long": -53.4499158158
+      },
+      {
+        "index": 261,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO JABOTICABAL",
+        "Lat": -21.3220826029,
+        "Long": -48.3568924081
+      },
+      {
+        "index": 262,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "POLO CASTRO",
+        "Lat": -24.6945610761,
+        "Long": -49.9492205243
+      },
+      {
+        "index": 263,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO SAO JOAO DA BOA VISTA",
+        "Lat": -21.420275449,
+        "Long": -47.1668274082
+      },
+      {
+        "index": 264,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO DF - SAMAMBAIA",
+        "Lat": -15.9491284092,
+        "Long": -48.0819861861
+      },
+      {
+        "index": 265,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO ITATIBA",
+        "Lat": -23.0092624239,
+        "Long": -46.8287761554
+      },
+      {
+        "index": 266,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - CENTRO",
+        "Lat": -12.9436180096,
+        "Long": -38.5974955971
+      },
+      {
+        "index": 267,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO LENCOIS PAULISTA",
+        "Lat": -22.6075276114,
+        "Long": -48.7827044278
+      },
+      {
+        "index": 268,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO AVARE",
+        "Lat": -22.9732469911,
+        "Long": -48.8319299842
+      },
+      {
+        "index": 269,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO SAO LUIS 1",
+        "Lat": -2.5649633046,
+        "Long": -44.2265202673
+      },
+      {
+        "index": 270,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO CASTANHAL",
+        "Lat": -1.3031357677,
+        "Long": -47.9909487194
+      },
+      {
+        "index": 271,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO PALMAS",
+        "Lat": -10.0574647708,
+        "Long": -48.457414146
+      },
+      {
+        "index": 272,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO PRESIDENTE PRUDENTE",
+        "Lat": -22.0877177124,
+        "Long": -51.2671614957
+      },
+      {
+        "index": 273,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO FOZ DO IGUACU",
+        "Lat": -25.5074267408,
+        "Long": -54.5088790677
+      },
+      {
+        "index": 274,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO BRUSQUE",
+        "Lat": -27.0242678916,
+        "Long": -48.8903413859
+      },
+      {
+        "index": 275,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO SANTOS",
+        "Lat": -23.9469792487,
+        "Long": -46.3363983828
+      },
+      {
+        "index": 276,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO MARINGA 1",
+        "Lat": -23.4029580287,
+        "Long": -51.8932149041
+      },
+      {
+        "index": 277,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO CARAGUATATUBA",
+        "Lat": -23.6847983326,
+        "Long": -45.448398443
+      },
+      {
+        "index": 278,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO TOLEDO",
+        "Lat": -24.7229957713,
+        "Long": -53.6548118339
+      },
+      {
+        "index": 279,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO SANTO ANTONIO DA PLATINA",
+        "Lat": -23.2562870603,
+        "Long": -50.0083505823
+      },
+      {
+        "index": 280,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO LAURO DE FREITAS",
+        "Lat": -12.9122760394,
+        "Long": -38.3379463746
+      },
+      {
+        "index": 281,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "POLO CUBATAO",
+        "Lat": -23.8838637652,
+        "Long": -46.4251758314
+      },
+      {
+        "index": 282,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO SAQUAREMA",
+        "Lat": -22.8809885796,
+        "Long": -42.5780170097
+      },
+      {
+        "index": 283,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO DUQUE DE CAXIAS - SUL",
+        "Lat": -22.7856217291,
+        "Long": -43.3471113586
+      },
+      {
+        "index": 284,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - BOTAFOGO",
+        "Lat": -22.9179816516,
+        "Long": -43.2113315231
+      },
+      {
+        "index": 285,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "POLO SOBRAL",
+        "Lat": -4.0201058754,
+        "Long": -40.475303624
+      },
+      {
+        "index": 286,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - AMERICANOPOLIS",
+        "Lat": -23.6539135058,
+        "Long": -46.6490689782
+      },
+      {
+        "index": 287,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "POLO POCOS DE CALDAS",
+        "Lat": -21.7805753625,
+        "Long": -46.5794512943
+      },
+      {
+        "index": 288,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO CAPAO DA CANOA",
+        "Lat": -29.4369307126,
+        "Long": -50.1171208368
+      },
+      {
+        "index": 289,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO JUIZ DE FORA 2",
+        "Lat": -21.7549528022,
+        "Long": -43.3666345079
+      },
+      {
+        "index": 290,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO CAXIAS DO SUL - LESTE",
+        "Lat": -29.1151062562,
+        "Long": -51.0738162396
+      },
+      {
+        "index": 291,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - BELA VISTA",
+        "Lat": -23.5043524289,
+        "Long": -46.6508020048
+      },
+      {
+        "index": 292,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO IJUI",
+        "Lat": -28.380314108,
+        "Long": -53.8968565812
+      },
+      {
+        "index": 293,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - SUL",
+        "Lat": -13.0503002799,
+        "Long": -38.6041473301
+      },
+      {
+        "index": 294,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "POLO BELEM 3",
+        "Lat": -1.3300116754,
+        "Long": -48.627801565
+      },
+      {
+        "index": 295,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO UBERLANDIA 2",
+        "Lat": -18.9277169157,
+        "Long": -48.2491990475
+      },
+      {
+        "index": 296,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "POLO JEQUIE",
+        "Lat": -13.8488000115,
+        "Long": -40.0810025308
+      },
+      {
+        "index": 297,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO OLINDA",
+        "Lat": -8.1342868804,
+        "Long": -34.9693584721
+      },
+      {
+        "index": 298,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "POLO MACAPA",
+        "Lat": 0.0326539409,
+        "Long": -51.0649407791
+      },
+      {
+        "index": 299,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO PORTO VELHO",
+        "Lat": -8.9283164267,
+        "Long": -63.6112599283
+      },
+      {
+        "index": 300,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO ARACAJU 1",
+        "Lat": -10.9473620529,
+        "Long": -37.1937784441
+      },
+      {
+        "index": 301,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "POLO SP - SAUDE",
+        "Lat": -23.5936270617,
+        "Long": -46.6087507038
+      },
+      {
+        "index": 302,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO BEBEDOURO",
+        "Lat": -20.9422352252,
+        "Long": -48.4649325248
+      },
+      {
+        "index": 303,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "POLO TANGARA DA SERRA",
+        "Lat": -14.6291346176,
+        "Long": -57.4775303176
+      },
+      {
+        "index": 304,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO VOTORANTIM",
+        "Lat": -23.5942985313,
+        "Long": -47.4299898685
+      },
+      {
+        "index": 305,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO ITABAIANA",
+        "Lat": -10.9761617947,
+        "Long": -37.6603478648
+      },
+      {
+        "index": 306,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - VILA PIRITUBA",
+        "Lat": -23.4495016864,
+        "Long": -46.6789577658
+      },
+      {
+        "index": 307,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO JUIZ DE FORA 1",
+        "Lat": -21.7315258111,
+        "Long": -43.3793611631
+      },
+      {
+        "index": 308,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - LAPA",
+        "Lat": -23.5230121796,
+        "Long": -46.7040462556
+      },
+      {
+        "index": 309,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO CALDAS NOVAS",
+        "Lat": -17.6020532632,
+        "Long": -48.7315744565
+      },
+      {
+        "index": 310,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO RESENDE",
+        "Lat": -22.3664299224,
+        "Long": -44.5155468475
+      },
+      {
+        "index": 311,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO SAO LEOPOLDO",
+        "Lat": -29.7507204684,
+        "Long": -51.1743230531
+      },
+      {
+        "index": 312,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO ITAQUAQUECETUBA",
+        "Lat": -23.4744406483,
+        "Long": -46.3475013501
+      },
+      {
+        "index": 313,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "POLO SALVADOR - NORTE",
+        "Lat": -12.9184633316,
+        "Long": -38.4529145115
+      },
+      {
+        "index": 314,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO NOVO HAMBURGO - OESTE",
+        "Lat": -29.6489261341,
+        "Long": -51.1583519052
+      },
+      {
+        "index": 315,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - MARACANAU",
+        "Lat": -3.9562406304,
+        "Long": -38.6282081311
+      },
+      {
+        "index": 316,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO FLORIANOPOLIS - NORTE",
+        "Lat": -27.455201819,
+        "Long": -48.4565334982
+      },
+      {
+        "index": 317,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "POLO NOVA VENECIA",
+        "Lat": -18.72375245,
+        "Long": -40.038119525
+      },
+      {
+        "index": 318,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "POLO UMUARAMA",
+        "Lat": -23.7611033165,
+        "Long": -53.2955720665
+      },
+      {
+        "index": 319,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO SUZANO",
+        "Lat": -23.5227230291,
+        "Long": -46.2979251839
+      },
+      {
+        "index": 320,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO CRICIUMA",
+        "Lat": -28.6191632494,
+        "Long": -49.3519656979
+      },
+      {
+        "index": 321,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO NOVA FRIBURGO",
+        "Lat": -22.3078071278,
+        "Long": -42.5715220801
+      },
+      {
+        "index": 322,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO AGUAS LINDAS DE GOIAS",
+        "Lat": -15.7229243248,
+        "Long": -48.5158877423
+      },
+      {
+        "index": 323,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO NITEROI",
+        "Lat": -22.8564376489,
+        "Long": -43.1089737534
+      },
+      {
+        "index": 324,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO PETROPOLIS",
+        "Lat": -22.483596653,
+        "Long": -43.1887274406
+      },
+      {
+        "index": 325,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO FORMOSA",
+        "Lat": -15.5320707335,
+        "Long": -47.3416648976
+      },
+      {
+        "index": 326,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "POLO DF - ASA NORTE",
+        "Lat": -15.6520810887,
+        "Long": -48.1040838031
+      },
+      {
+        "index": 327,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "POLO INHUMAS",
+        "Lat": -16.4115772476,
+        "Long": -49.4509856402
+      },
+      {
+        "index": 328,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "POLO SP - JARAGUA",
+        "Lat": -23.4764066603,
+        "Long": -46.7301561588
+      },
+      {
+        "index": 329,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO FRANCISCO BELTRAO",
+        "Lat": -25.9751760719,
+        "Long": -53.0366660871
+      },
+      {
+        "index": 330,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO TABOAO DA SERRA",
+        "Lat": -23.5955209597,
+        "Long": -46.7615562328
+      },
+      {
+        "index": 331,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO LONDRINA 2",
+        "Lat": -23.2941803147,
+        "Long": -51.1279282317
+      },
+      {
+        "index": 332,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO RIBEIRAO PRETO 1",
+        "Lat": -21.2035136062,
+        "Long": -47.7945101205
+      },
+      {
+        "index": 333,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - CENTRO",
+        "Lat": -22.9022997572,
+        "Long": -43.2149301942
+      },
+      {
+        "index": 334,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "POLO SP - VILA EMA",
+        "Lat": -23.5689660538,
+        "Long": -46.5394228261
+      },
+      {
+        "index": 335,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "POLO PASSO FUNDO",
+        "Lat": -28.2559609745,
+        "Long": -52.3870390288
+      },
+      {
+        "index": 336,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "POLO SP - PAULISTA",
+        "Lat": -23.5674719861,
+        "Long": -46.6438644254
+      },
+      {
+        "index": 337,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "POLO FLORIANOPOLIS - SUL",
+        "Lat": -27.5382964189,
+        "Long": -48.5100011354
+      },
+      {
+        "index": 338,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "POLO CRUZEIRO",
+        "Lat": -22.556445704,
+        "Long": -44.972819553
+      },
+      {
+        "index": 339,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 3",
+        "Lat": -30.0157326677,
+        "Long": -51.1726274946
+      },
+      {
+        "index": 340,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "POLO VALPARAISO DE GOIAS 2",
+        "Lat": -16.1771717325,
+        "Long": -48.0532186231
+      },
+      {
+        "index": 341,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "POLO BARRETOS",
+        "Lat": -20.5228696807,
+        "Long": -48.6323023356
+      },
+      {
+        "index": 342,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "POLO CORNELIO PROCOPIO",
+        "Lat": -23.1668068639,
+        "Long": -50.6259426633
+      },
+      {
+        "index": 343,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "POLO VALENCA",
+        "Lat": -13.3955511939,
+        "Long": -38.9375993212
+      },
+      {
+        "index": 344,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO COTIA",
+        "Lat": -23.5997085025,
+        "Long": -46.9235073073
+      },
+      {
+        "index": 345,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "POLO BAURU",
+        "Lat": -22.3551775211,
+        "Long": -49.0380921734
+      },
+      {
+        "index": 346,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO OSASCO - LESTE",
+        "Lat": -23.5335100483,
+        "Long": -46.7917429426
+      },
+      {
+        "index": 347,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "POLO SP - MORUMBI",
+        "Lat": -23.5893837056,
+        "Long": -46.7407864389
+      },
+      {
+        "index": 348,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "POLO ALCANTARA",
+        "Lat": -22.7857830798,
+        "Long": -43.0053094643
+      },
+      {
+        "index": 349,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "POLO PORTO ALEGRE 6",
+        "Lat": -30.0161546528,
+        "Long": -51.1624216935
+      },
+      {
+        "index": 350,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "POLO SAO CARLOS",
+        "Lat": -22.0180968626,
+        "Long": -47.8867522694
+      },
+      {
+        "index": 351,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "POLO FRANCA",
+        "Lat": -20.5321542025,
+        "Long": -47.3874982435
+      },
+      {
+        "index": 352,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO CAXIAS DO SUL - OESTE",
+        "Lat": -29.0726823116,
+        "Long": -51.2366853706
+      },
+      {
+        "index": 353,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO GRAMADO",
+        "Lat": -29.1501140519,
+        "Long": -50.9524381375
+      },
+      {
+        "index": 354,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "POLO SAO BENTO DO SUL",
+        "Lat": -26.1872541025,
+        "Long": -49.3884793206
+      },
+      {
+        "index": 355,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "POLO RJ - ZONA SUL",
+        "Lat": -22.92438848,
+        "Long": -43.2650107052
+      },
+      {
+        "index": 356,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "POLO FOR - CAUCAIA",
+        "Lat": -3.855299122,
+        "Long": -38.6528665383
+      },
+      {
+        "index": 357,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "POLO LAJEADO",
+        "Lat": -29.4387213484,
+        "Long": -51.9463283974
+      },
+      {
+        "index": 358,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "POLO EMBU",
+        "Lat": -23.6520897782,
+        "Long": -46.8232280452
+      },
+      {
+        "index": 359,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "POLO MACEIO 2",
+        "Lat": -9.5715643976,
+        "Long": -35.88010668
+      },
+      {
+        "index": 360,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "POLO MACAE",
+        "Lat": -22.3146432374,
+        "Long": -41.9093017868
+      },
+      {
+        "index": 361,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "POLO JOAO PESSOA - OESTE",
+        "Lat": -7.2116972128,
+        "Long": -34.7642994393
+      },
+      {
+        "index": 362,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "POLO VALE DO SAO FRANCISCO",
+        "Lat": -9.4084643533,
+        "Long": -40.4096135721
+      },
+      {
+        "index": 363,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "POLO NOVA IGUACU - SUL",
+        "Lat": -22.7809766825,
+        "Long": -43.4482055614
+      },
+      {
+        "index": 364,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP OESTE",
+        "Polo": "default",
+        "Lat": -23.5281437396,
+        "Long": -46.6814055846
+      },
+      {
+        "index": 365,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 2",
+        "Polo": "default",
+        "Lat": -16.6541629844,
+        "Long": -49.2907253114
+      },
+      {
+        "index": 366,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NRS",
+        "Polo": "default",
+        "Lat": -29.4741362434,
+        "Long": -51.6448363499
+      },
+      {
+        "index": 367,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MS",
+        "Polo": "default",
+        "Lat": -20.130633309,
+        "Long": -54.6073657855
+      },
+      {
+        "index": 368,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 2",
+        "Polo": "default",
+        "Lat": -15.2050152725,
+        "Long": -40.2402975842
+      },
+      {
+        "index": 369,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 3",
+        "Polo": "default",
+        "Lat": -12.4062082474,
+        "Long": -38.7991756621
+      },
+      {
+        "index": 370,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO RN",
+        "Polo": "default",
+        "Lat": -5.7767046298,
+        "Long": -35.6871221997
+      },
+      {
+        "index": 371,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SRS",
+        "Polo": "default",
+        "Lat": -30.149879653,
+        "Long": -51.2489185577
+      },
+      {
+        "index": 372,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO BA 1",
+        "Polo": "default",
+        "Lat": -12.9756917981,
+        "Long": -38.5152167349
+      },
+      {
+        "index": 373,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PB",
+        "Polo": "default",
+        "Lat": -7.1941570796,
+        "Long": -35.2352341574
+      },
+      {
+        "index": 374,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 2",
+        "Polo": "default",
+        "Lat": -15.6855845166,
+        "Long": -48.0182937968
+      },
+      {
+        "index": 375,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO MT",
+        "Polo": "default",
+        "Lat": -13.6974481397,
+        "Long": -57.5172422829
+      },
+      {
+        "index": 376,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP CENTRO",
+        "Polo": "default",
+        "Lat": -23.5268766094,
+        "Long": -46.6292964458
+      },
+      {
+        "index": 377,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO N",
+        "Polo": "default",
+        "Lat": -3.5922235518,
+        "Long": -48.4334506541
+      },
+      {
+        "index": 378,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 1",
+        "Polo": "default",
+        "Lat": -3.8532136653,
+        "Long": -38.5640888651
+      },
+      {
+        "index": 379,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO OSP",
+        "Polo": "default",
+        "Lat": -22.2044984478,
+        "Long": -49.8283901182
+      },
+      {
+        "index": 380,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OP",
+        "Polo": "default",
+        "Lat": -24.8623276443,
+        "Long": -53.6342275293
+      },
+      {
+        "index": 381,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP EXTREMO OESTE",
+        "Polo": "default",
+        "Lat": -23.554261814,
+        "Long": -46.8267442905
+      },
+      {
+        "index": 382,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUL",
+        "Polo": "default",
+        "Lat": -23.8483938749,
+        "Long": -46.4873643277
+      },
+      {
+        "index": 383,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJE",
+        "Polo": "default",
+        "Lat": -22.4928245193,
+        "Long": -43.1812143995
+      },
+      {
+        "index": 384,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO SSC",
+        "Polo": "default",
+        "Lat": -28.0102545185,
+        "Long": -48.8827345227
+      },
+      {
+        "index": 385,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO NP",
+        "Polo": "default",
+        "Lat": -23.3284858398,
+        "Long": -51.5023217161
+      },
+      {
+        "index": 386,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO LRJ",
+        "Polo": "default",
+        "Lat": -22.4495494794,
+        "Long": -42.0241952223
+      },
+      {
+        "index": 387,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO CB",
+        "Polo": "default",
+        "Lat": -25.4082651126,
+        "Long": -49.3085330991
+      },
+      {
+        "index": 388,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO TM",
+        "Polo": "default",
+        "Lat": -19.2268510193,
+        "Long": -47.9527868187
+      },
+      {
+        "index": 389,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJC",
+        "Polo": "default",
+        "Lat": -22.9048739446,
+        "Long": -43.299130281
+      },
+      {
+        "index": 390,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO ES",
+        "Polo": "default",
+        "Lat": -19.9959547862,
+        "Long": -40.347661359
+      },
+      {
+        "index": 391,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO SEAL",
+        "Polo": "default",
+        "Lat": -10.2651293213,
+        "Long": -36.6141147893
+      },
+      {
+        "index": 392,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO PE",
+        "Polo": "default",
+        "Lat": -8.3827345847,
+        "Long": -35.7938881748
+      },
+      {
+        "index": 393,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO NSP",
+        "Polo": "default",
+        "Lat": -20.9354187229,
+        "Long": -48.7151975797
+      },
+      {
+        "index": 394,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO OSC",
+        "Polo": "default",
+        "Lat": -27.2081301825,
+        "Long": -52.4436854106
+      },
+      {
+        "index": 395,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP LESTE",
+        "Polo": "default",
+        "Lat": -23.5253532863,
+        "Long": -46.5047279971
+      },
+      {
+        "index": 396,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO SMG",
+        "Polo": "default",
+        "Lat": -21.4727768626,
+        "Long": -44.8933940913
+      },
+      {
+        "index": 397,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "DISTRITO VI",
+        "Polo": "default",
+        "Lat": -26.6734899002,
+        "Long": -48.8595809545
+      },
+      {
+        "index": 398,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO CIP",
+        "Polo": "default",
+        "Lat": -22.9836615254,
+        "Long": -47.8347295662
+      },
+      {
+        "index": 399,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP NORTE",
+        "Polo": "default",
+        "Lat": -23.4763559942,
+        "Long": -46.6421831924
+      },
+      {
+        "index": 400,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO NNE",
+        "Polo": "default",
+        "Lat": -3.3057676637,
+        "Long": -49.8708086035
+      },
+      {
+        "index": 401,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "DISTRITO VP",
+        "Polo": "default",
+        "Lat": -23.0574088052,
+        "Long": -45.4827189925
+      },
+      {
+        "index": 402,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "DISTRITO SP SUDESTE",
+        "Polo": "default",
+        "Lat": -23.6134146027,
+        "Long": -46.6645572981
+      },
+      {
+        "index": 403,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "DISTRITO RJBF",
+        "Polo": "default",
+        "Lat": -22.7354179823,
+        "Long": -43.452154356
+      },
+      {
+        "index": 404,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO DF 1",
+        "Polo": "default",
+        "Lat": -15.8350660356,
+        "Long": -48.2210372153
+      },
+      {
+        "index": 405,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "DISTRITO CE 2",
+        "Polo": "default",
+        "Lat": -5.8893068914,
+        "Long": -41.1366163474
+      },
+      {
+        "index": 406,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "DISTRITO GO 1",
+        "Polo": "default",
+        "Lat": -16.812036766,
+        "Long": -49.5402563491
+      },
+      {
+        "index": 407,
+        "Pais": "BRASIL",
+        "Regiao": "CONNE",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -15.0129117584,
+        "Long": -49.2919345186
+      },
+      {
+        "index": 408,
+        "Pais": "BRASIL",
+        "Regiao": "SP",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -23.5829331157,
+        "Long": -46.6344973705
+      },
+      {
+        "index": 409,
+        "Pais": "BRASIL",
+        "Regiao": "ISP",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -22.5270634209,
+        "Long": -47.409877024
+      },
+      {
+        "index": 410,
+        "Pais": "BRASIL",
+        "Regiao": "NORDESTE",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -8.8832171358,
+        "Long": -37.1208156672
+      },
+      {
+        "index": 411,
+        "Pais": "BRASIL",
+        "Regiao": "SUL",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -26.7743657439,
+        "Long": -50.3448770615
+      },
+      {
+        "index": 412,
+        "Pais": "BRASIL",
+        "Regiao": "RJMG",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -22.4440971111,
+        "Long": -42.883948874
+      },
+      {
+        "index": 413,
+        "Pais": "BRASIL",
+        "Regiao": "default",
+        "Distrito": "default",
+        "Polo": "default",
+        "Lat": -21.1199266946,
+        "Long": -46.0869507441
+      }
+    ]
+  }

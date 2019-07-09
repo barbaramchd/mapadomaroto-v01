@@ -26,6 +26,9 @@
     <style type="text/css">
     </style>
 
+    <!--Require-->
+    <!--<script data-main="scriptcopy.js" src="require.js"></script>-->
+
 </head>
 <body>
     <!--Navbar-->
@@ -66,6 +69,7 @@
     <script src="navbar.js"></script>
 
     <!--Main elements-->
+
     <div class="container">
         <div class="row">
             <!--Map-->
@@ -79,8 +83,15 @@
             </div>
 
             <!--Charts-->
-            <div class="col-lg-6 col-md-6 col-sm-6" id='charts' style="display:_blank;">
-                <script src="app.js"></script>
+            <div class="col-lg-6 col-md-6 col-sm-6" id='charts'>
+                <div id='first_chart' style="display: none;">
+                    <script src="app.js"></script>
+                </div>
+                
+                <!--Importing external data to charts-->
+                <div class="importData">
+                    <script src="importData.js"></script>
+                </div>
             </div>
             
         <!-- divs go here-->
