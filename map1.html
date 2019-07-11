@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./lib/MarkerCluster.Default.css">
     <link rel="stylesheet" href="./src/L.Control.ZoomDisplay.css">
 
-    <!-- Load d3.js -->
-    <script src="https://d3js.org/d3.v4.js"></script>
+    <!-- Load Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     <!--Load Boostrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -45,7 +45,7 @@
                             Dashboard
                         </a>
                         <div class="dropdown-menu">
-                            <!--<a class="dropdown-item" onclick="showChart();">Nível 01 - Brasil</a>-->
+                            <a class="dropdown-item" href="#">Nível 01 - Brasil</a>
                             <a class="dropdown-item" href="#">Nível 02 - Regionais</a>
                             <a class="dropdown-item" href="#">Nível 03 - Distritais</a>
                             <a class="dropdown-item" href="#">Nível 04 - Polos</a>
@@ -84,15 +84,17 @@
 
             <!--Charts-->
             <div class="col-lg-6 col-md-6 col-sm-6" id='charts'>
-                <div id='first_chart' style="display: none;">
-                    <script src="app.js"></script>
-                </div>
+                <div class ="card-body">
+                <!--h1>Chart.JS 
+                    <button id="btnUpdateChart" class="btn btn-success" onClick="updateChart(popupText)">Update</button>
+                </h1-->
                 
-                <!--Importing external data to charts-->
-                <div class="importData">
-                    <script src="importData.js"></script>
+                </div>
+                <div style="width: 600px" class="card-body">
+                    <canvas id="line_Chart" heigth="500" width="400"></canvas>
                 </div>
             </div>
+            <script src="app.js"></script>
             
         <!-- divs go here-->
 
